@@ -1,0 +1,142 @@
+
+*{
+    box-sizing:border-box;
+    
+  }
+  
+  
+  html{
+    font-family:sans-serif;
+    scroll-behavior:smooth;
+    min-width:600px;
+  }
+  
+  nav{
+    background-color:#22252b;
+    position:fixed;
+    flex-direction:column;
+    min-width:200px;
+    max-width:200px;
+    height:calc(98vh - 4px);
+    padding: 10px;
+    margin:10px;
+    top:0;
+    left:0;
+    justify-content:center;
+    border-radius:10px;
+  }
+  
+  body{
+    background-color:#121316;
+    color:white;
+    padding-left:230px;
+    margin:30px auto;
+    width:900px;
+  }
+  
+  p{
+    margin-left:15px;
+    line-height:1.3rem;
+    color:#eaeaea;
+  }
+  
+  header h1{
+    text-align:center;
+    margin:10px auto;
+    padding:0 0 15px 0;
+    font-size:2rem;
+    
+  }
+  
+  header h2{
+    text-align:left;
+    margin:10px auto -10px;
+    padding:0 0 15px 0;
+    font-size:2rem;
+  }
+  
+  section{
+    margin:0 50px 50px 0;
+  }
+  
+  ul{
+    margin-top:-10px;
+    line-height:1.3rem;
+  }
+  
+  code{
+    display:flex;
+    flex-direction:column;
+    background-color:#0c0d0f;
+    width:80%;
+    font-size:1rem;
+    padding:20px 3em;
+    border-radius:20px;
+    margin:0 40px;
+  }
+  
+  code p{
+    margin:5px;
+  }
+  
+  
+  
+  .nav-links a{
+    text-decoration:none;
+    padding-bottom:5px;
+    padding-top:5px;
+    color:#c4c4c4;
+  }
+  
+  .nav-link{
+    text-align:left;
+    width:100%;
+    font-size:1.1rem;
+    display:block;
+    padding-bottom:10px;
+    padding-left:10px;
+    border-bottom:2px solid #2d2d2d;
+    margin:10px 0;
+  }
+  
+  .nav-link:hover{
+    background-color:#282b33;
+    border-radius:7px;
+    font-size:1.2rem;
+  }
+  
+  .block{
+    position:relative;
+    width:100px;
+    height:100px;
+    background-color:black;
+    top:900px;
+  }
+  
+  
+  
+  @media (max-width: 915px) {
+    nav{
+      background-color:#22252b;
+      position:relative;
+      min-width:50vw;
+      height:30vh;
+      padding: 10px;
+      margin: 0 auto;
+      border-radius:10px;
+      overflow-y:scroll;
+    }
+  
+    body{
+      position:relative;
+      background-color:#121316;
+      color:white;
+      padding-left:0px;
+      margin:30px auto;
+      max-width:600px;
+    }
+  
+    section{
+      margin:0 0px 50px 0;
+    }
+  }
